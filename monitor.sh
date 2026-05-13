@@ -17,4 +17,12 @@ echo "Checking Docker service..."
 systemctl status docker --no-pager
 
 echo ""
+echo "Checking uptime..."
+uptime
+
+echo ""
 echo "===== HEALTH CHECK COMPLETED ===="
+
+echo ""
+echo "Checking logged in users..."
+who
